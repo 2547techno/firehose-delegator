@@ -3,7 +3,7 @@ import { manager } from ".";
 import { db } from "./lib/db";
 import { config } from "./lib/config";
 const app = Express();
-const PORT = process.env.PORT ?? 3000;
+const PORT = config.rest.port ?? 3000;
 
 const middleware = [json()];
 

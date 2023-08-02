@@ -18,6 +18,9 @@
         "password": "password",
         "queueName": "firehose-delegation" // queue name to send delegation messages to
     },
+    "rest": {
+        "port": 3000 // port REST API is served on
+    },
     "db": {
         // mariadb creds
         "host": "192.168.0.1",
@@ -27,12 +30,6 @@
     }
 }
 ```
-
-## Env
-
-### `PORT=<port>`
-
-REST API port
 
 ## Database
 
